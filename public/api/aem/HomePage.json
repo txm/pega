@@ -1,0 +1,28 @@
+{
+  "campaign_id": "1",
+  "campaign_description": "",
+  "campaign_name": "",
+  "start_date": "",
+  "end_date": "",
+  "HomePage_HomeServices": [
+    {
+      "TreatmentId": "BNA-1",
+      "IncentiveDescription": "Get a Gift Card worth up to £50 when you buy selected HomeCare products online",
+      "Subline": "Offer ends 21st May.",
+      "Caveat": "Offer of a Gift Card is available to new domestic homeowners and landlord customers who buy HomeCare Two – Four online between 10th April and 21st May 2018. Existing HomeCare Two and Three customers who upgrade during the offer period will be eligible for a £10 Gift Card. You must keep your product for at least 45 days to qualify for the Gift Card. Instructions on how to choose your Gift Card will be emailed within 60 days of purchase. Offer is not available with any other offer or promotion and excludes HomeCare One.",
+      "Rank": "1"
+    }
+  ],
+  "HomePage_Jumbotron": [
+    {
+      "TreatmentId": "BNA-2",
+      "Headline": "Join Rewards",
+      "Subline": "Lorem ipsum dolor sit amet, saepe reprehendunt id usu. No vel stet lucilius evertitur, delenit urbanitas constituam eu ius.",
+      "Caveat": "Lorem ipsum dolor sit amet, saepe reprehendunt id usu. No vel stet lucilius evertitur, delenit urbanitas constituam eu ius.",
+      "CtaText": "Find out more",
+      "CtaLink": "https://www.britishgas.co.uk/rewards.html",
+      "Image": "https://www.britishgas.co.uk/aem6/content/dam/britishgas/images/rewards/NewBannerWilburHeader.jpg",
+      "Rank": "2"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "data":[{
+    "type": "treatment",
+    "id": "1",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "HomeCare",
+      "sub-channel": "HomePage_HomeServices",
+      "rank": "2"
+    }
+  },
+  {
+    "type": "treatment",
+    "id": "2",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "HomeCare",
+      "sub-channel": "HomePage_HomeServices",
+      "rank": "3"
+    }
+  },
+  {
+    "type": "treatment",
+    "id": "3",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "HomeCare",
+      "sub-channel": "HomePage_HomeServices",
+      "rank": "4"
+    }
+  },
+  {
+    "type": "treatment",
+    "id": "4",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "HomeCare",
+      "sub-channel": "HomePage_Jumbotron",
+      "rank": "1"
+    }
+  }]
+}

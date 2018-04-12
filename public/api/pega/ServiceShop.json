@@ -1,0 +1,42 @@
+{
+  "data":[{
+    "type": "treatment",
+    "id": "1",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "ServiceShop",
+      "sub-channel": "ServiceShop_General",
+      "rank": "2"
+    }
+  },
+  {
+    "type": "treatment",
+    "id": "2",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "ServiceShop",
+      "sub-channel": "ServiceShop_Hero",
+      "rank": "3"
+    }
+  },
+  {
+    "type": "treatment",
+    "id": "3",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "ServiceShop",
+      "sub-channel": "ServiceShop_General",
+      "rank": "4"
+    }
+  },
+  {
+    "type": "treatment",
+    "id": "4",
+    "attributes": {
+      "campaign-id": "campaign-1",
+      "product-id": "ServiceShop",
+      "sub-channel": "ServiceShop_Hero",
+      "rank": "1"
+    }
+  }]
+}

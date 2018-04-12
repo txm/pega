@@ -7,41 +7,12 @@
     <div id="app"><h1>Pega App</h1></div>
   </body>
   <script>
-    const channels = {
-      'HomePage': [ 'HomePage_HomeServices', 'HomePage_Jumbotron' ],
-      'ServiceShop': [ 'ServiceShop_Hero', 'ServiceShop_General' ],
-    };
-
-    for (const channel of Object.keys(channels)) {
-
+    for (const channel of channels) {
       callMS(channel)
       .then(data => {
-        console.log(data);
-        let channelHTML = `<div class="channel channel-${channel}"><h2>Channel: ${channel}</h2>`;
-        for (const subchannel of channels[channel]) {
-          console.log('subchannel', subchannel);
-          // TODO link the data between AEM and PEGA
-          //      and display as below xxx
-          //      Maybe correct the JSON
-          let subchannelHTML = `
-            <div class="subchannel subchannel-${subchannel}">
-              <h3>SubChannel: ${subchannel}</h3>
-              <h4>Data / Fields</h4>
-              <ul>
-                <li>Treatment Id: xxx</li>
-                <li>IncentiveDescription: xxx</li>
-                <li>Caveat: xxx</li>
-                <li>Rank: xxx</li>
-              </ul>
-            </div>
-          `;
-          channelHTML += subchannelHTML;
-        }
-        channelHTML += `</div>`;
         var app = document.getElementById('app');
-        app.innerHTML += channelHTML;
+        app.innerHTML += renderChannel(data[0], data[1], channel);
       });
-
     }
   </script>
 </html>
